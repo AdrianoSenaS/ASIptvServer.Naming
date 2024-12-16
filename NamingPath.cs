@@ -4,9 +4,10 @@
     {
         public NamingPath() { }
         public string path { get; set; }
-        public NamingPath(string value)
+        public NamingPath(string p) 
         {
-            this.path = value;
+            this.path = p;
         }
+
     }
 }
